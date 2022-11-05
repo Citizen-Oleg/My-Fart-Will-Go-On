@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6045641018415856291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6045641018415856293}
+  - component: {fileID: 6045641018415856290}
+  - component: {fileID: 6045641018415856292}
+  - component: {fileID: 6045641018415856295}
+  - component: {fileID: 6045641018415856294}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6045641018415856293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045641018415856291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6045641018415856290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045641018415856291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 6045641018415856292}
+  - {fileID: 6045641018415856295}
+  - {fileID: 6045641018415856294}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &6045641018415856292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045641018415856291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de56f8b17f42cd14d9f045b679154f2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  _playerPerceptionTriggerZone: {fileID: 0}
+  _playerSettings:
+    Speed: 8
+    Rigidbody: {fileID: 0}
+    Animator: {fileID: 0}
+  _settingsExhaustGasController:
+    GraduationPosition: {fileID: 0}
+  _settingsPlayerItemInstaller:
+    PositionItem: {fileID: 0}
+--- !u!114 &6045641018415856295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045641018415856291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3898cdb1c7dd4f3f85837badda488d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settingsUpgraderFXPools:
+    CountPool: 3
+    FxUpgraders: []
+  _joystickController: {fileID: 0}
+  _settingsResourceManagerLevel:
+    StartResource:
+    - ResourceType: 0
+      Amount: 0
+  _levelSettings:
+    Street: {fileID: 0}
+    Reward:
+      ResourceType: 0
+      Amount: 0
+    Persons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  _settingsClickHandler:
+    LayerMask:
+      serializedVersion: 2
+      m_Bits: 512
+  _settingsRewardController:
+    RewardMultipliers:
+    - Level: 1
+      Multiplier: 1
+    - Level: 2
+      Multiplier: 1.5
+    - Level: 3
+      Multiplier: 2
+    - Level: 4
+      Multiplier: 2.5
+    - Level: 5
+      Multiplier: 3
+  _settingsUpgraderIntensity:
+    TypeUpgrade: 2
+    IntensityImproves:
+    - InformationImprove:
+        Level: 1
+        Resource:
+          ResourceType: 0
+          Amount: 20
+      TypeGas: 2
+    - InformationImprove:
+        Level: 2
+        Resource:
+          ResourceType: 0
+          Amount: 30
+      TypeGas: 3
+    - InformationImprove:
+        Level: 3
+        Resource:
+          ResourceType: 0
+          Amount: 40
+      TypeGas: 4
+    - InformationImprove:
+        Level: 4
+        Resource:
+          ResourceType: 0
+          Amount: 50
+      TypeGas: 5
+    - InformationImprove:
+        Level: 5
+        Resource:
+          ResourceType: 0
+          Amount: 60
+      TypeGas: 6
+  _settingsUpgraderRadius:
+    TypeUpgrade: 0
+    RadiusImproves:
+    - InformationImprove:
+        Level: 1
+        Resource:
+          ResourceType: 0
+          Amount: 20
+      Radius: 2.5
+      SpeedParticle: 8
+    - InformationImprove:
+        Level: 2
+        Resource:
+          ResourceType: 0
+          Amount: 30
+      Radius: 3
+      SpeedParticle: 11
+    - InformationImprove:
+        Level: 3
+        Resource:
+          ResourceType: 0
+          Amount: 40
+      Radius: 3.35
+      SpeedParticle: 12.5
+    - InformationImprove:
+        Level: 4
+        Resource:
+          ResourceType: 0
+          Amount: 50
+      Radius: 3.75
+      SpeedParticle: 15.5
+    - InformationImprove:
+        Level: 5
+        Resource:
+          ResourceType: 0
+          Amount: 60
+      Radius: 4
+      SpeedParticle: 17
+  _settingsUpgraderAutoFart:
+    TypeUpgrade: 1
+    AutoFartImproves:
+    - InformationImprove:
+        Level: 1
+        Resource:
+          ResourceType: 0
+          Amount: 20
+      IsActive: 0
+      Cooldown: 0
+    - InformationImprove:
+        Level: 2
+        Resource:
+          ResourceType: 0
+          Amount: 30
+      IsActive: 1
+      Cooldown: 5
+    - InformationImprove:
+        Level: 3
+        Resource:
+          ResourceType: 0
+          Amount: 40
+      IsActive: 1
+      Cooldown: 4
+    - InformationImprove:
+        Level: 4
+        Resource:
+          ResourceType: 0
+          Amount: 50
+      IsActive: 1
+      Cooldown: 3
+    - InformationImprove:
+        Level: 5
+        Resource:
+          ResourceType: 0
+          Amount: 60
+      IsActive: 1
+      Cooldown: 2.5
+--- !u!114 &6045641018415856294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6045641018415856291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d5766748334ff696ce7a55d71b1b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settingsViewResourceManager:
+    ParentCanvas: {fileID: 0}
+    PrefabMoneyImage: {fileID: 242859360812694465, guid: 120365f2868b73c4d88e9f274d94b5c9, type: 3}
+    PoolCapacity: 5
+  _settingsViewResourceLevel:
+    TextMoney: {fileID: 0}
+  _settingsViewResourceAnimationController:
+    ResizingTime: 0.4
+    ScaleIncrease: {x: 1.35, y: 1.35, z: 1.35}
+  _settingsLevelCompletionBar:
+    Slider: {fileID: 0}
+  _settingsUIUpgradeManager:
+    UpgradeButtons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  _settingsColorStateButtonProvider:
+    ColorStateButtons:
+    - StateButton: 0
+      Color: {r: 0.21176471, g: 0.4627451, b: 1, a: 1}
+    - StateButton: 1
+      Color: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
+    - StateButton: 2
+      Color: {r: 1, g: 0.2783019, b: 0.2783019, a: 1}
+  _settingsViewTimer:
+    Image: {fileID: 0}
+  _settingsColorItemButtonProvider:
+    ColorItemButtons:
+    - ItemButtonState: 0
+      Color: {r: 1, g: 0.4, b: 0.40784314, a: 1}
+    - ItemButtonState: 1
+      Color: {r: 0.50980395, g: 0.50980395, b: 0.50980395, a: 1}
+  _settingsUIItemManager:
+    BuyItemButtons:
+    - {fileID: 0}
+    - {fileID: 0}
+  _settingsViewDisgustedManager:
+    Container: {fileID: 0}
+    ViewDisgusted: {fileID: 7656040105272099660, guid: e52de797c6db9f54c8b2a3bd12edfef1, type: 3}

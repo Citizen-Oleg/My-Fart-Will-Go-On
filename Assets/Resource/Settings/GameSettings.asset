@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c6e7808a6724bbda2beee5ccc302256, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _settingsAnimationManagerUI:
+    TravelSpeed: 1000
+  _settingsGasPools:
+    CountPool: 3
+    GasPrefabs:
+    - {fileID: 6254305358029974945, guid: 7513bf525021a5b4db5656dc27fce258, type: 3}
+    - {fileID: 1988104138726503666, guid: 3865595dbc29b0b4fa7d42f0ab57d7f3, type: 3}
+    - {fileID: 4038416691591750348, guid: 312ae130609944247b9a9ac5460531b1, type: 3}
+    - {fileID: 7830012106103642385, guid: ce34973541607ce469c52d34007a4bed, type: 3}
+    - {fileID: 4353012543993030757, guid: 243634be638168a4a8eb8b7736577682, type: 3}
+    - {fileID: 6412287359246576492, guid: 8ac1e4cd0ca2cdc42ac176f18073270b, type: 3}
+    - {fileID: 7755915741135814432, guid: c897228ec52a0754694680330700e842, type: 3}
+  _settingsItemPools:
+    CountPool: 2
+    Items:
+    - {fileID: 8796105542909658126, guid: b0b486ed166c84844abb357d5aae281b, type: 3}
+    - {fileID: 3851452459335725334, guid: c7507c2ad533d27489cfe5394d4ba2f5, type: 3}
+  _settingsUpgraderFXPools:
+    CountPool: 2
+    FxUpgraders:
+    - {fileID: -3813157593585148338, guid: 2adb5d0a420995a44b71e6013f0cf1b3, type: 3}
+    - {fileID: -3289284846079482785, guid: 1d060189e32f60746b878d047bbff2af, type: 3}
+    - {fileID: 4412525823156573374, guid: 3882d4dd0bd019c408123074abf0381b, type: 3}
+  _settingsEmotionPools:
+    CountPool: 2
+    EmotionPrefabs:
+    - {fileID: 4072197209328843357, guid: de89eb4d167e00b4fab157953b8d3894, type: 3}
+    - {fileID: 6299133568236053785, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 3}
+    - {fileID: 4635247065810657332, guid: ab9041fcf0d2ca5429b835df2786ef1e, type: 3}
+    - {fileID: 8878699709025171692, guid: 309e5b7789ae90b4d9a211eae4438307, type: 3}
+    - {fileID: 4437893659070099167, guid: 780f9efde9439f345a63baff480c0755, type: 3}
+    - {fileID: 5172980848213045475, guid: dca8dc67ab8f9a64d8aba9884c36c2ff, type: 3}
+    - {fileID: 1507632992826102971, guid: c1720eca2edd54e498243e98d0274602, type: 3}
+    - {fileID: 6884943585075369258, guid: 72e06155695f11040b722d672293fe98, type: 3}
+    - {fileID: 6006017787137220464, guid: e0a635c1d90e2314597eb60951e3bc3a, type: 3}
+    - {fileID: -4557610433237792263, guid: 2e56fd1643229fd459ca004221b6c96f, type: 3}
+    - {fileID: 6310113950560953249, guid: 5cc0cca5fc93dfc439639c1333bd23d2, type: 3}
+    - {fileID: 558251217032041497, guid: 92cf35f623d72fc448f4d0661c9284f5, type: 3}
+    - {fileID: 3598754704511934902, guid: 69359de5f8759454bbfe449e619129bc, type: 3}
+    - {fileID: -9111005958006863260, guid: 8898eec2e914d864cbacd434a30d6bff, type: 3}
+    - {fileID: 1041514825084433031, guid: 4a9bb31a555add44ba9d0dbc0c220e70, type: 3}
+    - {fileID: -7434746189712838352, guid: eb6fa6e828fc3ae42ad25c1b4cf00414, type: 3}
+    - {fileID: -2328911132355197267, guid: f9e6992e06bbb0442a152d0115027bf3, type: 3}
+  _settingsEmotionFractionProvider:
+    EmotionFractions:
+    - EmotionFraction: 1
+      EmotionTypes: 0000000001000000020000000d0000000e0000000600000003000000040000000500000010000000
+    - EmotionFraction: 0
+      EmotionTypes: 0700000008000000090000000a0000000b0000000c0000000f000000
+  _settingsScreenManager:
+    ScreenAddressablesID:
+    - ScreenType: 1
+      AssetID: VictoryScreen
+  _settingsLoadController:
+    StartScene: 1
+  _settingsLoadSceneController:
+    LoopingLevelNumber: 1
